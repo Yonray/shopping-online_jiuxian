@@ -3,7 +3,9 @@
 	margin: 0px;
 	font-family: 微软雅黑;
 }
-
+.claer{
+	clear: both;
+}
 .topHeader{
 	width: 100%;
 	height: 26px;
@@ -247,32 +249,194 @@ s.fenge{
 	font-weight: 500; 
 }
 
-
-
-
-
-
+/*顶部横幅*/
 .topBox{
 	width: 100%;
 	height: 90px;
-	background: #aff;
+	background: #fff;
+	margin: 0 auto;
+	background: url(../img/hengfu.jpg) no-repeat top center scroll;
 }
 
+/*顶部搜索框*/
 .midHeader{
 	width: 100%;
 	height: 125px;
-	background: #faf;
+	background: #fff;
 }
+
+.midHeaderCon{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	background: #fff;
+}
+.midHeaderCon .headerLogo{
+	width: 257px;
+	height: 65px;
+	float: left;
+	display: inline-block;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.midHeaderCon .headerSearch{
+	width: 540px;
+	height: 61px;
+	display: inline-block;
+	float: left;
+	margin: 32px 0 0 20px;
+}
+.headerSearch .searchHome{
+	border: 3px solid #c00;
+	z-index: 800;
+	height: 31px;
+
+}
+.headerSearch .searchForm{
+	display: inline-block;
+	width: 439px;
+	height: 21px;
+	line-height: 22px;
+	padding: 5px;
+	border: 0 none;
+	color: #666;
+}
+.headerSearch .searchBtn{
+	display: inline-block;
+	width: 85px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	background: #c00;
+	cursor: pointer;
+	float: right;
+	border: none;
+}
+.headerSearch .hotWords{
+	width: 540px;
+	height: 18px;
+	padding-top: 5px;
+	font-size: 12px;
+	float: left; 
+}
+.headerSearch .hotWords a{
+	display: inline-block;
+	float: left;
+	color: #999;
+	padding:  0 8px;
+	height: 18px;
+	text-decoration: none;
+
+}
+.headerSearch .hotWords a:hover{
+	color: #c00;
+	text-decoration: underline;
+}
+.hotWords s{
+	display: inline-block;
+	margin-left: 3px;
+	height: 12px;
+	width: 0;
+	border-left: 1px solid #999;
+	position: relative;
+	left: 5px;
+	top: 2px;
+}
+
+.midHeaderCon .headerInfor{
+	width: 363px;
+	height: 64px;
+	display: inline-block;
+	float: right;
+	margin: 33px 0 0 0;
+	background: url(../img/headerInfor.png) no-repeat top left;
+}
+
+/*顶部导航*/
 
 .topNav{
 	width: 100%;
 	height: 34px;
-	background: #ffa;
+	background: #900;
 }
+.topNav .topNavCon{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto; 
+}
+
+.topNavCon .navLeft{
+	width: 190px;
+	height: 100%;
+	float: left;
+}
+.navLeft h2{
+	color: #fff;
+	line-height: 34px;
+	font-weight: 600;
+	font-size: 14px;
+	background: #ce171f;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: 4px 2px 5px rgba(0,0,0,0.2);
+}
+.navLeft ul.leftMenu{
+	width: 190px;
+	height: 470px;
+	background: #faf;
+	display: block;
+	z-index: 30;
+}
+.topNavCon .navMid{
+	width: 890px;
+	height: 100%;
+	float: left;
+}
+.navMid ul{
+	float: left;
+	line-height: 34px;
+	display: block;
+	list-style: none;
+}
+.navMid ul li{
+	float: left;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	height: 34px;
+}
+.navMid ul li a{
+	padding: 0 22px;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+.navMid .tag span{
+	display: block;
+	width: 29px;
+	height: 17px;
+	background: url(../img/public-24.png)0 -264px no-repeat;
+	position: absolute;
+	right: 6px;
+	top: -6px;
+	z-index: 200;
+}
+
+.topNavCon .navRight{
+	width: 120px;
+	height: 100%;
+	float: left;
+
+}
+
+
+
 .mainBanner{
 	width: 100%;
 	height: 470px;
-	background: #aff;
 }
 .footer{
 	width: 1200px;
