@@ -386,7 +386,6 @@ s.fenge{
 .navLeft ul.leftMenu{
 	width: 190px;
 	height: 470px;
-	background: #faf;
 	display: block;
 	z-index: 30;
 }
@@ -433,17 +432,20 @@ s.fenge{
 /*左侧菜单栏*/
 
 .leftMenu .menuLi{
-	width: 190px;
+	width: 187px;
 	float: left;
 	height: 81px;
 	background: #fff;
 	border-bottom:1px solid #e4e4e4;
 	list-style: none;
 	color: #666;  
+	position: relative;
+	border-left: solid 3px #fff;
 }
 .leftMenu .menuLi6{
 	height: 60px;
 	border: none;
+	border-left: solid 3px #fff;
 }
 .leftMenu .menuLiCon{
 	width: 163px;
@@ -573,6 +575,116 @@ s.fenge{
 	top: -1px;
 	background: url(../img/public-24.png) -79px -100px no-repeat;
 }
+/*菜单栏弹出框******************************************************8*/
+.menuLi .menuBox{
+	width: 620px;
+	height: 470px;
+	position: absolute;
+	left: 187px;
+	top: 0;
+	display: none;
+}
+.menuBox1 .mBox1Left{
+	width: 90px;
+	height: 100%;
+	background: rgb(241,241,241);
+	float: left;
+} 
+.menuBox1 .mBox1Mid{
+	width: 310px;
+	height: 100%;
+	float: left;
+} 
+.menuBox1 .mBox1Right{
+	width: 220px;
+	height: 100%;
+	float: left;
+} 
+.mBox1Left ul li{
+	text-decoration: none;
+	width: 90px;
+	display: block;
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+}
+.mBox1Left ul li p{
+	padding-top: 15px;
+}
+.mBox1Left ul .mB1LeftL1{
+	height: 69px;
+}
+.mBox1Left ul .mB1LeftL{
+	height: 43px;
+}
+.mBox1Mid .mBox1MidCon{
+	display: block;
+	width: 280px;
+	height: 470px;
+	margin: 0 auto;
+	background: #fff;
+}
+.mBox1MidCon ul .mB1MidL1{
+	display: inline-block;
+	text-decoration: none;
+	width: 280px;
+	height: 59px;
+	padding-top: 10px;
+	border-bottom:dotted 1px #999;
+}
+.mB1MidL1 p{
+	line-height: 21px;
+}
+.mB1MidL1 p a{
+	display: inline-block;
+	font-size: 12px;
+	color: #666;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.mB1MidL1 p a:hover{
+	color: #cc0001;
+}
+.mB1MidL1 p s{
+	display: inline-block;
+	margin-left: 3px;
+	height: 12px;
+	width: 0;
+	border-left: 1px solid #666;
+	position: relative;
+	left: 5px;
+	top: 2px;
+}
+.mBox1MidCon ul .mB1MidL{
+	display: inline-block;
+	text-decoration: none;
+	width: 280px;
+	height: 33px;
+	padding-top: 10px;
+	border-bottom:dotted 1px #999;
+}
+.mB1MidL p a{
+	display: inline-block;
+	font-size: 12px;
+	color: #666;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.mB1MidL p a:hover{
+	color: #cc0001;
+}
+.mB1MidL p s{
+	display: inline-block;
+	margin-left: 3px;
+	height: 12px;
+	width: 0;
+	border-left: 1px solid #666;
+	position: relative;
+	left: 5px;
+	top: 2px;
+}
+
+
 
 
 

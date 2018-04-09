@@ -3,3 +3,5 @@
 3.为icon设置inline-block；
 4.增加height值，以遮住下border；
 5.大横幅以背景形式插入；
+？6.问题调试时候display none的怎么在浏览器一直显示(让jquery失效)；
+7.jquery index()不传jq对象默认当前对象在兄弟元素位置；

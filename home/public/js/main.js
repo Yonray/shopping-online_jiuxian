@@ -1,5 +1,5 @@
 $(function(){
-	// 顶部状态栏
+	// 顶部状态栏*************************************************************
 	$(".myJiuXianBox").hide();
 	$(".th-l1").hover(function(){
 		$(".th-l1").css({"background":"#fff"});
@@ -38,17 +38,26 @@ $(function(){
 		$(".th-l8 .cusServiceBox").hide();
 	});
 
-	// 顶部搜索框
+	// 顶部搜索框*************************************************************
 	$(".searchHome .searchForm").click(function(){
 		$(".searchHome .searchForm").val("");
 	});
 
-	// 顶部导航
+	// 顶部导航*************************************************************
 	$(".navMid ul li").eq(0).css({"background":"#b40c10"});
 	$(".navMid ul li:gt(0)").hover(function(){
 		$(this).css({"background":"#b40c10"});
 	},function(){
 		$(this).css({"background":"transparent"});
 	});
-
+// 左侧菜单栏*************************************************************
+	$(".leftMenu .menuLi").hover(function(){
+		n=$(this).index();
+		y=-n*81-n;
+		$(this).css({"background":"rgb(241,241,241)","border-left-color":"#ce171f"});
+		$(this).find(".menuBox").css({"top":y+"px"}).show();
+	},function(){
+		$(this).css({"background":"#fff","border-left-color":"#fff"});
+		$(this).find(".menuBox").hide();
+	});
 });
