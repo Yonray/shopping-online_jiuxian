@@ -429,8 +429,155 @@ s.fenge{
 	width: 120px;
 	height: 100%;
 	float: left;
-
 }
+/*左侧菜单栏*/
+
+.leftMenu .menuLi{
+	width: 190px;
+	float: left;
+	height: 81px;
+	background: #fff;
+	border-bottom:1px solid #e4e4e4;
+	list-style: none;
+	color: #666;  
+}
+.leftMenu .menuLi6{
+	height: 60px;
+	border: none;
+}
+.leftMenu .menuLiCon{
+	width: 163px;
+	height: 81px;
+	margin: 0 auto;
+}
+.leftMenu .menuLiCon6{
+	width: 163px;
+	height: 60px;
+	margin: 0 auto;
+}
+.menuLi h3{
+	line-height: 32px;
+	height: 32px;
+	font-size: 14px;
+	overflow: hidden;
+	font-weight: normal;
+	padding-top: 3px;
+	color: #333;
+}
+.menuLi h3 a{
+	color: #333;
+	text-decoration: none;
+}
+.menuLi .menuListCon{
+	width: 163px;
+	position: relative;
+	height: 40px;
+}
+.menuLi6 .menuListCon6{
+	width: 163px;
+	position: relative;
+	height: 20px;
+}
+.menuListCon6 p{
+	height: 20px;
+}
+.menuListCon6 p a{
+	height: 16px;
+	display: inline-block;
+	float: left;
+	font-size: 12px;
+	padding: 0 4px;
+	margin: 2px 3px 2px 0;
+	text-decoration: none;
+	color: #666;
+}
+.menuListCon p{
+	width: 170px;
+	height: 20px;
+}
+.menuListCon p a{
+	display: inline-block;
+	height: 16px;
+	font-size: 12px;
+	float: left;
+	padding: 0 4px;
+	margin: 2px 3px 2px 0;
+	text-decoration: none;
+	color: #666;
+}
+
+.menuListCon p a.on{
+	background: #f90;
+	color: #fff;
+	border-radius: 3px;
+	line-height: 16px;
+}
+
+.menuLi1 i{
+	display: inline-block;
+	width: 14px;
+	height: 20px;
+	margin-right: 10px;
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+	background: url(../img/public-24.png) -73px -260px no-repeat;
+}
+.menuLi2 i{
+	display: inline-block;
+	width: 14px;
+	height: 20px;
+	margin-right: 10px;
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+	background: url(../img/public-24.png) 2px -100px no-repeat;
+}
+.menuLi3 i{
+	display: inline-block;
+	width: 14px;
+	height: 20px;
+	margin-right: 10px;
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+	background: url(../img/public-24.png) -16px -102px no-repeat;
+}
+.menuLi4 i{
+	display: inline-block;
+	width: 14px;
+	height: 20px;
+	margin-right: 10px;
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+	background: url(../img/public-24.png) -37px -100px no-repeat;
+}
+.menuLi5 i{
+	display: inline-block;
+	width: 14px;
+	height: 20px;
+	margin-right: 10px;
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+	background: url(../img/public-24.png) -59px -100px no-repeat;
+}
+.menuLi6 i{
+	display: inline-block;
+	width: 14px;
+	height: 20px;
+	margin-right: 10px;
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+	background: url(../img/public-24.png) -79px -100px no-repeat;
+}
+
+
+
+
+
 
 
 
