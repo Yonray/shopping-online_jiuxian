@@ -60,4 +60,15 @@ $(function(){
 		$(this).css({"background":"#fff","border-left-color":"#fff"});
 		$(this).find(".menuBox").hide();
 	});
+	//********* 幻灯片插件**************************
+	$("#theTarget").skippr({
+    transition: 'fade',
+    speed: 1000,
+    navType: 'bubble',
+    arrows: false,
+    autoPlay: true,
+    autoPlayDuration: 3000,
+    keyboardOnAlways: false,
+    });
+	
 });
