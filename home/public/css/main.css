@@ -3,7 +3,10 @@
 	margin: 0px;
 	font-family: 微软雅黑;
 }
-.claer{
+body{
+	background: #f9f9f9;
+}
+.clear{
 	clear: both;
 }
 .topHeader{
@@ -749,7 +752,255 @@ s.fenge{
 .bannerRight .bannerRight2{
 	display: none;
 }
+/*页面主体mainbox**********************/
+.mainBody{
+	width: 100%;
+	height: 4536px;
+	padding: 10px 0;
+	background: #f9f9f9;
+}
+.mainBox{
+	width: 1200px;
+	height: 4516px;
+	margin: 0 auto;
+}
 
+.mainBox .crazySale{
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+.crazySale .cSaleLeft{
+	width: 920px;
+	height: 100%;
+	float: left;
+	border-right: solid 1px #ececec;
+	border-left: solid 1px #ececec;
+	border-bottom: solid 1px #ececec;
+}
+.cSaleLeft .cSLNav{
+	height: 38px;
+	width: 100%;
+}
+
+.cSLNav ul li{
+	display: inline-block;
+	list-style: none;
+	width: 183px;
+	border-right: 1px solid #ececec;
+	border-top: 2px solid #ececec;
+	border-bottom: 1px solid #ececec;
+	height: 35px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 35px;
+	font-size: 16px;
+	color: #666;
+	background: #f9f9f9;
+	float: left;
+}
+.cSLNav ul li.on{
+	width: 183px;
+	border-top: 2px solid #cc0000;
+	border-bottom: 1px solid #fff;
+	height: 35px;
+	color: #cc0000;
+	line-height: 35px;
+	background: #fff;
+}
+.cSaleLeft .cSLBody{
+	height: 461px;
+	width: 100%;
+	background: #fff;
+}
+.cSLBody .lBodyTab{
+	height: 442px;
+	margin: 0 auto;
+	padding: 10px 0;
+	position: relative;
+	display: none;
+}
+.cSLBody .lBodyTab.on{
+	display: block;
+}
+.cSLBody .lBodyTab ul li{
+	display: block;
+	float: left;
+	width: 182px;
+	height: 196px;
+	margin-top: 20px;
+	margin-right: 2px;
+	list-style: none;
+	color: #666;
+	background: #fff;
+}
+.indexTabPic{
+	width: 160px;
+	height: 160px;
+	padding: 0 11px;
+	position: relative;
+}
+.indexTabPic a{
+	width: 182px;
+	height: 160px;
+	display: block;
+}
+.indexTabPic a img{
+	width: 160px;
+	height: 160px;
+	display: block;
+}
+.indexTabPic p{
+	background:url(../img/tagBg.png);
+	position: absolute;
+	width: 45px;
+	height:55px;
+	right: 0;
+	top: 0;
+	z-index: 999;
+	color: #fff;
+	text-align: center;
+}
+.indexTabPic p span{
+	display: inline-block;
+	width: 43px;
+	height: 28px;
+	font-size: 12px;
+	padding: 0 1px;
+}
+.indexTabTitle a{
+	padding:0 6px;
+	height: 18px;
+	line-height: 14px;
+	color: #666;
+	font-size: 12px;
+	text-decoration: none;
+}
+.indexTabPrice{
+	width: 170px;
+	height: 18px;
+	line-height: 18px;
+	padding: 0 6px;
+}
+.indexTabPrice strong{
+	font-size: 12px;
+	color: #cd0100;
+	font-weight: normal;
+	line-height: 18px;
+	display: inline;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.crazySale .cSaleRight{
+	width: 270px;
+	float: right;
+	height: 100%;
+	position: relative;
+	border: 1px solid #ececec;
+}
+.cSaleRight .cSRTop{
+	height: 140px;
+	width: 100%;
+	float: left;
+	background: red;
+}
+.cSRTop .cSRTopNav{
+	height: 35px;
+	position: relative;
+	color: #666;
+
+}
+.cSRTopNav ul li{
+	font-size: 16px;
+	text-align: center;
+	width: 134px;
+	display: block;
+	border-top: 2px solid transparent;
+	border-bottom: 1px solid #ececec;
+	border-left: 1px solid #ececec;
+	cursor: pointer;
+	float: left;
+	list-style: none;
+	line-height: 33px;
+	background: #fff;
+}
+.cSRTopNav ul li.on{
+	border-top:2px solid #c41921;
+	color: #cc0000;
+	line-height: 33px;
+	background: #fff; 
+	border-bottom: none;
+}
+.cSRTopBody{
+	width: 270px;
+	height: 95px;
+	padding-top: 10px;
+	background: #fff;
+}
+.cSRTopBody .cSRTopTab{
+	width: 258px;
+	height: 84px;
+	margin :0 6px; 
+	display: none;
+}
+.cSRTopBody .on{
+	width: 258px;
+	height: 84px;
+	margin :0 6px; 
+	display: block;
+}
+.cSRTopBody .cSRTopTab ul li{
+	list-style: none;
+	line-height: 28px;
+	font-size: 12px;
+	width: 114px;
+	display:inline;
+	float: left;
+	margin-left: 10px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.cSRTopTab ul li a{
+	color: #666;
+	font-size: 12px;
+	text-decoration: none;
+}
+.cSRTopTab ul li a:hover{
+	color: #ff7700;
+	text-decoration: underline;
+}
+
+.cSaleRight .cSRMiddle{
+	height: 159px;
+	width: 100%;
+	margin-top: 10px;
+	float: left;
+}
+.cSRMiddle1{
+	background: url("../img/cSRMiddle1.jpg");
+}
+.cSRMiddle2{
+	background: url("../img/cSRMiddle2.jpg");
+}
+.cSaleRight .cSRBottom{
+	height: 180px;
+	width: 100%;
+	margin-top: 10px;
+	float: left;
+	border-bottom: ; 
+}
+.cSRBottom1{
+	background: url("../img/cSRBottom1.jpg");
+}
+.cSRBottom2{
+	background: url("../img/cSRBottom2.png");
+}
+
+.cSRBottom3{
+	background: url("../img/cSRBottom3.jpg");
+}
 
 
 

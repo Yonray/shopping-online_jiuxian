@@ -63,12 +63,30 @@ $(function(){
 	//********* 幻灯片插件**************************
 	$("#theTarget").skippr({
     transition: 'fade',
-    speed: 1000,
+    speed: 2000,
     navType: 'bubble',
     arrows: false,
     autoPlay: true,
     autoPlayDuration: 3000,
     keyboardOnAlways: false,
     });
-	
+    // 疯狂抢购主tab组*****************************
+    $(".cSaleLeft .cSLNav ul li").mouseover(function(){
+    	$(".cSaleLeft .cSLNav ul li").removeClass("on");
+    	$(this).addClass("on");
+    	idx=$(this).index();
+    	$(".lBodyTab").hide();
+    	$(".lBodyTab").eq(idx).show();
+    });
+     $(".cSRTop .cSRTopNav ul li").mouseover(function(){
+    	$(".cSRTop .cSRTopNav ul li").removeClass("on");
+    	$(this).addClass("on");
+    	idx=$(this).index();
+    	$(".cSRTopTab").hide();
+    	$(".cSRTopTab").eq(idx).show();
+    });
+     // ***********轮播，待完善*******
+	$("#theTarget2").skippr2();
+
+    $("#theTarget3").skippr2();
 });
