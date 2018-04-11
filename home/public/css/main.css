@@ -1001,9 +1001,39 @@ s.fenge{
 .cSRBottom3{
 	background: url("../img/cSRBottom3.jpg");
 }
-
-
-
+/***************中部三图banner*******************/
+.middleBanner{
+	height: 110px;
+	width: 100%;
+	position: relative;
+	background: url("../img/middleBanner.jpg");
+	margin-top: 20px;
+}
+.middleBanner p{
+	margin: 0 0 0 90px;
+	width: 290px;
+	height: 106px;
+	float: left;
+	display: inline;
+	color: red;
+}
+/***************限时秒杀*******************/
+.raceBox{
+	height: 300px;
+	margin-top: 30px;
+}
+.raceBox .raceTitle{
+	width: 1120px;
+	height: 40px;
+	background: #f9f9f9;
+}
+.raceBox .raceBody{
+	width: 1198px;
+	height: 259px;
+	border: 1px solid #ececec;
+	position: relative;
+	background: #ffa;
+}
 
 
 

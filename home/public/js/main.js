@@ -88,5 +88,5 @@ $(function(){
      // ***********轮播，待完善*******
 	$("#theTarget2").skippr2();
 
-    $("#theTarget3").skippr2();
+    $("#theTarget3").skippr3();
 });
