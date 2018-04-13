@@ -1209,7 +1209,7 @@ s.fenge{
 	padding: 0 3px;
 }
 .f1Title .f1Title_l{
-	width: 89px;
+	width: 129px;
 	line-height: 40px;
 	float: left;
 }
@@ -1526,6 +1526,69 @@ s.fenge{
 	color: #cd0100;
 	font-weight: normal;
 }
+/*2楼********************************/
+.floor2i{
+	background: url(../img/floorIcon.png)-30px -95px no-repeat!important;
+}
+.f2Box{
+	border-top: 2px solid #c2782f!important;
+}
+a.f2a{
+	margin-left: -2px!important;
+	background: #c2782f!important;
+}
+/*3楼*********************************/
+.floor3{
+	height: 528px!important;
+}
+.floor3i{
+	background: url(../img/floorIcon.png)-61px -95px no-repeat!important;
+}
+.f3Box{
+	border-top: 2px solid #276594!important;
+}
+a.f3a{
+	margin-left: 23px!important;
+	background: #276594!important;
+}
+.f3Bottom_l{
+	float: left; 
+	width: 186px;
+	background: #f9f9f9;
+	height: 132px;
+	padding: 20px 10px 13px 14px;
+}
+/*****4楼**************************/
+.floor4{
+	height: 528px!important;
+}
+.floor4i{
+	background: url(../img/floorIcon.png)-94px -95px no-repeat!important;
+}
+.f4Box{
+	border-top: 2px solid #6c9d0e!important;
+}
+a.f4a{
+	margin-left: 0px!important;
+	background: #6c9d0e!important;
+}
+/*****5楼**************************/
+.floor5{
+	height: 528px!important;
+}
+.floor5i{
+	background: url(../img/floorIcon.png)0 -207px no-repeat!important;
+}
+.f5Box{
+	border-top: 2px solid #fe7a65!important;
+}
+a.f5a{
+	margin-left: 24px!important;
+	background: #fe7a65!important;
+}
+
+
+
 
 .footer{
 	width: 1200px;

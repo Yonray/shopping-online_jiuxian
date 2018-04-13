@@ -123,6 +123,10 @@ $(function(){
     
     // ***1楼层白酒馆*****
 	slidr.create('slidr-img',{ "breadcrumbs":"true","controls":"none"}).auto();
+	slidr.create('slidr-img2',{ "breadcrumbs":"true","controls":"none"}).auto();
+	slidr.create('slidr-img3',{ "breadcrumbs":"true","controls":"none"}).auto();
+	slidr.create('slidr-img4',{ "breadcrumbs":"true","controls":"none"}).auto();
+	slidr.create('slidr-img5',{ "breadcrumbs":"true","controls":"none"}).auto();
 
 	$(".f1b_rTit_r a").mouseover(function(){
 		$(".f1b_rTit_r a").removeClass("on");
