@@ -89,4 +89,48 @@ $(function(){
 	$("#theTarget2").skippr2();
 
     $("#theTarget3").skippr3();
+
+    // 限时抢购栏
+    cSaleLeft = 0;
+    $(".rTitleRight span").click(function(){
+    	$(".rTitleRight span").removeClass("on");
+    	$(this).addClass("on");
+    	cSaleinx = $(this).index();
+    	
+    	cSaleLeft = -1200*cSaleinx;
+    	$(".raceBodyCon").animate({"left":cSaleLeft+"px"},500);
+    	// $(".raceBodyCon .raceList").eq(cSaleinx).show();
+    });
+     $(".raceBody  i.raceLeftArrow").click(function(){
+    	if(cSaleLeft<0&&cSaleLeft>=-2400){
+    		cSaleLeft = cSaleLeft+1200;
+    		$(".raceBodyCon").animate({"left":cSaleLeft+"px"},500);
+    		saleNav();
+    	}
+    });
+    $(".raceBody  i.raceRightArrow").click(function(){
+    	if(cSaleLeft>=-1200&&cSaleLeft<=0){
+    		cSaleLeft = cSaleLeft-1200;
+    		$(".raceBodyCon").animate({"left":cSaleLeft+"px"},500);
+    		saleNav();
+    	}
+    });
+    function saleNav(){
+    	var navIndex = cSaleLeft/(-1200);
+    	$(".rTitleRight span").removeClass("on");
+    	$(".rTitleRight span").eq(navIndex).addClass("on");
+    }
+    
+    // ***1楼层白酒馆*****
+	slidr.create('slidr-img',{ "breadcrumbs":"true","controls":"none"}).auto();
+
+	$(".f1b_rTit_r a").mouseover(function(){
+		$(".f1b_rTit_r a").removeClass("on");
+		var index = $(this).index();
+		$(this).addClass("on");
+		
+		$(".f1b_rBox ul").removeClass("on");
+		$(".f1b_rBox ul").eq(index).addClass("on");
+	});
+
 });
