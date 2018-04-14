@@ -136,5 +136,26 @@ $(function(){
 		$(".f1b_rBox ul").removeClass("on");
 		$(".f1b_rBox ul").eq(index).addClass("on");
 	});
+	// 2楼*修复底部js*****************************
+	$(".f1b_rTit_r2 a").mouseover(function(){
+		$(".f1b_rTit_r2 a").removeClass("on");
+		var index = $(this).index();
+		$(this).addClass("on");
+		
+		$(".f1b_rBox2 ul").removeClass("on");
+		$(".f1b_rBox2 ul").eq(index).addClass("on");
+	});
+
+	// 官方推荐*******************************************
+	$(".recomTitle ul li").mouseover(function(){
+		$(".recomTitle ul li").removeClass("on");
+		$(this).addClass("on");
+		var index = $(this).index();
+		tabLeft = 105*index;
+
+		$(".recomSlider").animate({"left":tabLeft+"px"},200);
+		$(".recomLogoCon").removeClass("logoOn");
+		$(".recomLogoCon").eq(index).addClass("logoOn");
+	});
 
 });

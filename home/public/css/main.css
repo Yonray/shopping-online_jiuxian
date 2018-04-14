@@ -1195,7 +1195,8 @@ s.fenge{
 	padding: 0 2px;
 	font-size: 12px;
 }
-/**********一楼白酒馆***********/
+/**********一楼白酒馆***********************************************/
+/*********************************/
 .floor1{
 	width: 100%;
 	height: 690px;
@@ -1537,6 +1538,64 @@ a.f2a{
 	margin-left: -2px!important;
 	background: #c2782f!important;
 }
+
+.f1b_rTit .f1b_rTit_r2{
+	float: right;
+	height: 32px;
+}
+.f1b_rTit_r2 a{
+	font-size: 12px;
+	float: left;
+	display: block;
+	color: #666;
+	padding: 0 10px;
+	height: 32px;
+	text-decoration: none;
+}
+.f1b_rTit_r2 a.on{
+	color: #c00;
+}
+.f1Bottom_r .f1b_rBox2{
+	width: 985px;
+	height: 102px;
+	padding: 10px 0 15px 0;
+	position: relative;
+}
+.f1b_rBox2 ul{
+	display: none;
+}
+.f1b_rBox2 ul.on{
+	display: block;
+}
+.f1b_rBox2 ul li{
+	width: 190px;
+	height: 90px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 7px;
+	list-style: none;
+}
+.f1b_rBox2 ul li i{
+	display: block;
+	width: 20px;
+	height: 89px;
+	float: left;
+}
+
+.f1b_rBox2 ul li .f1b_rBoxPic a img{
+	width: 90px;
+	height:90px;
+	display: inline-block;
+	float: left;
+}
+.f1b_rBox2 .f1b_rBoxTit{
+	float: left;
+	width: 80px;
+	padding-top: 5px;
+	height: 64px;
+}
+
+
 /*3楼*********************************/
 .floor3{
 	height: 528px!important;
@@ -1586,7 +1645,157 @@ a.f5a{
 	margin-left: 24px!important;
 	background: #fe7a65!important;
 }
+/****官方推荐logo盒子*******************/
 
+.recommend{
+	width: 100%;
+	height: 349px;
+	margin-top: 10px;
+	position: relative;
+}
+.recommend .recomTitle{
+	height: 43px;
+}
+.recomTitle ul li{
+	float: left;
+	font-size: 16px;
+	width: 90px;
+	height: 43px;
+	text-align: center;
+	margin-right: 15px;
+	cursor: pointer;
+	list-style: none;
+	color: #666;
+	line-height: 43px;
+}
+.recomTitle ul li.on{
+	color: #dd102e;
+}
+.recommend .recomSlider{
+	border-bottom: 2px solid #dd102e;
+	height: 7px;
+	position: absolute;
+	width: 90px;
+	top: 36px;
+	text-align: center;
+	overflow: hidden;
+	z-index: 10;
+}
+.recomSlider b{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: #dd102e;
+	z-index: 11;
+	color: #dd102e;
+	position: absolute;
+	left: 40px;
+	top: 4px;
+	transform: rotate(45deg);
+}
+.recommend .recomLogoBox{
+	width: 1185px;
+	position: relative;
+	height: 274px;
+	border: 1px solid #ededed;
+	background: #fff;
+	padding: 15px;
+	padding-right: 0;
+}
+.recomLogoCon{
+	height: 274px;
+	display: none;
+}
+.logoOn{
+	display: block;
+}
+
+.recomLogoCon ul li{
+	float: left;
+	width: 180px;
+	height: 80px;
+	position: relative;
+	margin: 0 17px 17px 0;
+	overflow: hidden;
+}
+.recomLogoCon ul li a img{
+	display: inline;
+	position: relative;
+}
+/*品牌精品店*********************/
+.brand{
+	width: 100%;
+	height: 174px;
+	margin-top: 10px;
+}
+.brand .brandTitle{
+	height: 40px;
+	line-height: 40px;
+	background: #f9f9f9;
+	padding:0 3px; 
+}
+.brandTitle i{
+	display: inline-block;
+	width: 7px;
+	height: 18px;
+	background: #ff9000;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.brandTitle span{
+	display: inline-block;
+	font-size: 17px;
+	color: #333;
+	margin-left: 10px;
+}
+.brand .brandList{
+	border: 1px solid #ececec;
+	background: #fff;
+	padding: 4px 4px 0 4px; 
+}
+.brandList dl dt{
+	width: 107px;
+	float: left;
+	border-bottom: 4px solid #fff;
+	overflow: hidden;
+	height: 60px;
+	background:url(../img/brandList1.jpg);
+}
+.brandList dl dd{
+	padding: 5px 8px;
+	width: 463px;
+	height: 50px;
+	float: left;
+	line-height: 25px;
+	color:#afafaf;
+	border-bottom: 4px solid #fff;
+	position: relative;
+}
+.brandList dl dd p{
+	line-height: 25px;
+	font-size: 12px;
+	background: #fff;
+}
+.brandList dl dd p a{
+	padding: 0 8px;
+	background: #fff;
+	display: inline-block;
+	height: 25px;
+	vertical-align: middle;
+	color: #666;
+	text-decoration:none;
+	font-size: 12px;
+	font-family: 宋体!important;
+}
+.brandList dl dt.list2{
+	background:url(../img/brandList2.jpg);
+}
+.brandList dl dt.list3{
+	background:url(../img/brandList3.jpg);
+}
+.brandList dl dt.list4{
+	background:url(../img/brandList4.jpg);
+}
 
 
 
