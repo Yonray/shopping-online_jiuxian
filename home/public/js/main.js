@@ -157,5 +157,9 @@ $(function(){
 		$(".recomLogoCon").removeClass("logoOn");
 		$(".recomLogoCon").eq(index).addClass("logoOn");
 	});
-
+	// footer
+	$(".mailCon input").focus(function(){
+		$(".mailCon span").hide();
+	});
+	
 });

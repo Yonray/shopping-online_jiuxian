@@ -755,7 +755,7 @@ s.fenge{
 /*页面主体mainbox**********************/
 .mainBody{
 	width: 100%;
-	height: 4536px;
+	height: 4516px;
 	padding: 10px 0;
 	background: #f9f9f9;
 }
@@ -1797,11 +1797,148 @@ a.f5a{
 	background:url(../img/brandList4.jpg);
 }
 
-
-
+/*页脚*****************************************/
 .footer{
+	width: 100%;
+	height: 568px;
+	background: #f9f9f9;
+}
+.footer .footerTop{
+	width: 100%;
+	height: 289px;
+	background: #333;
+}
+.footerTop .topTel{
 	width: 1200px;
-	height: 279px;
 	margin: 0 auto;
-	background: #666;
+	height: 84px;
+	border-bottom: 1px solid #494949;
+}
+.topTel .telCon{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	padding: 22px 0;
+}
+.telCon i{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-right: 18px;
+	background: url(../img/public-24.png) -144px -22px no-repeat;
+	float: left;
+}
+.telCon b{
+	font-size: 24px;
+	color: #c00;
+	margin-right: 25px;
+	display: inline-block;
+	float: left;
+}
+.telCon span{
+	font-size: 14px;
+	color: #fff;
+	margin-right: 8px;
+}
+.topTel .mailCon{
+	float: right;
+	height: 32px;
+	width: 336px;
+	padding: 26px 0;
+	position: relative;
+}
+.mailCon .inputCon{
+	border: 1px solid #494949;
+	float: left;
+	width: 240px;
+	height: 30px;
+	position: relative;
+	z-index: 10;
+}
+.mailCon p{
+	float: left;
+	line-height: 32px;
+	color: #fff;
+	padding-right: 10px;
+	font-size: 12px;
+}
+.mailCon input{
+	width: 190px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 6px;
+	float: left;
+	color: #fff;
+	border: 0 none;
+	background: transparent;
+	z-index: 20;
+}
+.mailCon span{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	color: #999;
+	position: absolute;
+	left: 5px;
+	top: 30;
+	font-size: 14px;
+	z-index: 1;
+}
+.mailCon i{
+	display:  inline-block;
+	width: 22px;
+	height: 18px;
+	margin: 6px 0 0 10px;
+	cursor: pointer;
+	float: left;
+	background: url(../img/public-24.png)-133px 0 no-repeat;
+}
+
+.footerTop .topServe{
+	width: 1200px;
+	margin: 0 auto;
+	height: 114px;
+	margin-top: 30px; 
+	background: url(../img/footerBot.png) no-repeat;
+}
+.footer .footerBot{
+	width: 1200px;
+	margin: 0 auto;
+	height: 260px;
+	margin-top: 20px;
+	background: url(../img/footerBot2.png) no-repeat;
+}
+.rightSideBar{
+	width: 35px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background: #fff;
+	z-index: 1000;
+	box-shadow: 1px 2px 5px #999;
+}
+.rightSideBar .rightBarCon{
+	height: 614px;
+	position: relative;
+}
+.rightBarCon .rbarTop{
+	width: 35px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	z-index: 300;
+	text-align: center;
+	height: 365px;
+	margin-top: -182.5px;
+	background: #aff;
+}
+.rightBarCon .rbarBot{
+	width: 35px;
+	position: absolute;
+	bottom: 30px;
+	right: 0;
+	text-align: center;
+	height: 96px;
+	background: #faf;
 }
