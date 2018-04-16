@@ -1931,7 +1931,6 @@ a.f5a{
 	text-align: center;
 	height: 365px;
 	margin-top: -182.5px;
-	background: #aff;
 }
 .rightBarCon .rbarBot{
 	width: 35px;
@@ -1941,4 +1940,149 @@ a.f5a{
 	text-align: center;
 	height: 96px;
 	background: #faf;
+}
+.rbarTopUser{
+	width: 35px;
+	padding: 10px 0;
+	position: relative;
+	z-index: 30;
+	cursor: pointer;
+	background: none;
+}
+.rbarTopUser i{
+	width: 19px;
+	height: 19px;
+	display: inline-block;
+	background: url(../img/public-24.png) 0 -163px no-repeat;
+}
+.rbarTopUser i.on{
+	background: url(../img/public-24.png) -20px -163px no-repeat;
+}
+.rbarTopUser span{
+	display: block;
+	line-height: 16px;
+	color: #333;
+	padding: 2px 0 0;
+	text-align: center;
+	cursor: pointer;
+	font-size: 12px;
+}
+.rbarTop .userBox{
+	width: 270px;
+	height:112px;
+	background: #fff;
+	box-shadow: 0 0 6px rgba(0,0,0,0.2);
+	position: absolute;
+	right: 35px;
+	z-index: 300;
+	border: 1px solid #ddd;
+	border-right: none;
+	top:-1px;
+	display: none;
+}
+.userBox .userBoxImg{
+	width: 270px;
+	padding: 18px 0 16px;
+}
+.userBoxImg p{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	position: relative;
+	float: left;
+	margin-left: 32px;
+}
+.userBoxImg p span{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background: url(../img/mask.png) no-repeat center center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 333;
+}
+.userBoxImg p img{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 332;
+}
+.userBox .userBoxInfo{
+	padding-top: 26px;
+	padding-left: 12px;
+	text-align: left;
+	float: left;
+}
+.userBoxInfo p{
+	line-height: 24px;
+	font-size: 12px;
+	color: #666;
+	margin-top:-13px; 
+}
+.userBoxInfo p a{
+	text-decoration: none;
+	color: #cc0000;
+}
+.userBoxInfo p a:hover{
+	text-decoration: underline;
+}
+/*收藏**************************************************/
+.rbarTopStore{
+	width: 35px;
+	padding: 10px 0;
+	position: relative;
+	z-index: 30;
+	cursor: pointer;
+	background: none;
+}
+.rbarTopStore i{
+	width: 19px;
+	height: 19px;
+	display: inline-block;
+	background: url(../img/public-24.png) -40px -163px no-repeat;
+}
+.rbarTopStore i.on{
+	background: url(../img/public-24.png) -60px -163px no-repeat;
+}
+.rbarTopStore span{
+	display: block;
+	line-height: 16px;
+	color: #333;
+	padding: 2px 0 0;
+	text-align: center;
+	cursor: pointer;
+	font-size: 12px;
+}
+/*购物车**************************************************/
+.shoppingCart{
+	width: 35px;
+	padding: 10px 0;
+	position: relative;
+	z-index: 30;
+	cursor: pointer;
+	background: none;
+}
+.shoppingCart i{
+	width: 19px;
+	height: 19px;
+	display: inline-block;
+	background: url(../img/public-24.png) -120px -163px no-repeat;
+}
+.shoppingCart i.on{
+	background: url(../img/public-24.png) -140px -163px no-repeat;
+}
+
+.shoppingCart span{
+	display: block;
+	line-height: 14px;
+	color: #333;
+	width: 14px;
+	padding: 2px 0 0;
+	text-align: center;
+	cursor: pointer;
+	font-size: 12px;
+	margin-left: 10.5px;
 }

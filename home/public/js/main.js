@@ -161,5 +161,22 @@ $(function(){
 	$(".mailCon input").focus(function(){
 		$(".mailCon span").hide();
 	});
-	
+	$(".rbarItem").hover(function(){
+		$(this).css({"background":"#c00"});
+		$(this).find("i").addClass("on");
+
+	},function(){
+		$(this).css({"background":"#fff"});
+		$(this).find("i").removeClass("on");;
+	});
+	$(".rbarTopUser").hover(function(){
+		$(".userBox").show();
+	},function(){
+		$(".userBox").hide();
+	});
+	$(".rbarTopStore").hover(function(){
+		$(".userBox").css({"top":61+"px"}).show();
+	},function(){
+		$(".userBox").css({"top":-1+"px"}).hide();
+	});
 });
