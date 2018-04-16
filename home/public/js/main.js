@@ -161,6 +161,8 @@ $(function(){
 	$(".mailCon input").focus(function(){
 		$(".mailCon span").hide();
 	});
+
+	// 右侧bar
 	$(".rbarItem").hover(function(){
 		$(this).css({"background":"#c00"});
 		$(this).find("i").addClass("on");
@@ -179,4 +181,32 @@ $(function(){
 	},function(){
 		$(".userBox").css({"top":-1+"px"}).hide();
 	});
+
+	// 右侧下部
+	$(".botItem").hover(function(){
+		$(this).css({"background":"#c00"});
+		$(this).find("i").addClass("on");
+
+	},function(){
+		$(this).css({"background":"#fff"});
+		$(this).find("i").removeClass("on");;
+	});
+
+	$(".returnTop").click(function(){
+		 scrollTop_y = $(document).scrollTop();
+		 scrollS = 50;
+	
+		interval = setInterval(function(){
+			if(scrollTop_y>=0){
+				scrollTop_y = scrollTop_y-scrollS;
+				$(document).scrollTop(scrollTop_y);
+			}
+			else{
+				$(document).scrollTop(0);
+				clearInterval(interval);
+			}
+		},2);
+		
+	});
+
 });

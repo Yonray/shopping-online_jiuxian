@@ -1894,20 +1894,7 @@ a.f5a{
 	background: url(../img/public-24.png)-133px 0 no-repeat;
 }
 
-.footerTop .topServe{
-	width: 1200px;
-	margin: 0 auto;
-	height: 114px;
-	margin-top: 30px; 
-	background: url(../img/footerBot.png) no-repeat;
-}
-.footer .footerBot{
-	width: 1200px;
-	margin: 0 auto;
-	height: 260px;
-	margin-top: 20px;
-	background: url(../img/footerBot2.png) no-repeat;
-}
+
 .rightSideBar{
 	width: 35px;
 	height: 100%;
@@ -1932,15 +1919,7 @@ a.f5a{
 	height: 365px;
 	margin-top: -182.5px;
 }
-.rightBarCon .rbarBot{
-	width: 35px;
-	position: absolute;
-	bottom: 30px;
-	right: 0;
-	text-align: center;
-	height: 96px;
-	background: #faf;
-}
+
 .rbarTopUser{
 	width: 35px;
 	padding: 10px 0;
@@ -2085,4 +2064,48 @@ a.f5a{
 	cursor: pointer;
 	font-size: 12px;
 	margin-left: 10.5px;
+}
+.rightBarCon .rbarBot{
+	width: 35px;
+	position: absolute;
+	bottom: 30px;
+	right: 0;
+	text-align: center;
+	height: 96px;
+}
+.rbarBot .botItem{
+	padding: 8px 0;
+	width: 35px;
+	position: relative;
+	z-index: 350px;
+	cursor: pointer;
+	height: 16px;
+}
+.rbarBot .feedBack i{
+	display: inline-block;
+	height: 16px;
+	width: 19px;
+	background: url(../img/public-24.png) 3px -186px no-repeat;
+}
+.feedBack i.on{
+	background: url(../img/public-24.png) 3px -203px no-repeat;
+}
+
+.rbarBot .code i{
+	display: inline-block;
+	height: 16px;
+	width: 19px;
+	background: url(../img/public-24.png) -19px -186px no-repeat;
+}
+.code i.on{
+	background: url(../img/public-24.png) -19px -203px no-repeat;
+}
+.rbarBot .returnTop i{
+	display: inline-block;
+	height: 16px;
+	width: 19px;
+	background: url(../img/public-24.png) -40px -186px no-repeat;
+}
+.returnTop i.on{
+	background: url(../img/public-24.png) -40px -204px no-repeat;
 }
