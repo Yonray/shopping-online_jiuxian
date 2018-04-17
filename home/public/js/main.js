@@ -1,5 +1,12 @@
 $(function(){
 	// 顶部状态栏*************************************************************
+
+	$("img").hover(function(){
+		$(this).animate({"opacity":"0.8"},150);
+	},function(){
+		$(this).animate({"opacity":"1"},150);
+	});
+
 	$(".myJiuXianBox").hide();
 	$(".th-l1").hover(function(){
 		$(".th-l1").css({"background":"#fff"});
@@ -156,6 +163,11 @@ $(function(){
 		$(".recomSlider").animate({"left":tabLeft+"px"},200);
 		$(".recomLogoCon").removeClass("logoOn");
 		$(".recomLogoCon").eq(index).addClass("logoOn");
+	});
+	$(".recomLogoCon ul li a img").hover(function(){
+		$(this).animate({"left":"-100px"},300);
+	},function(){
+		$(this).animate({"left":"0"},300);
 	});
 	// footer
 	$(".mailCon input").focus(function(){

@@ -1721,7 +1721,10 @@ a.f5a{
 .recomLogoCon ul li a img{
 	display: inline;
 	position: relative;
+	left: 0;
+	top: 0;
 }
+
 /*品牌精品店*********************/
 .brand{
 	width: 100%;
