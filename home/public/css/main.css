@@ -2109,3 +2109,171 @@ a.f5a{
 .returnTop i.on{
 	background: url(../img/public-24.png) -40px -204px no-repeat;
 }
+/*左侧滚动监听************************/
+.leftBar{
+	position: fixed;
+	width: 40px;
+	height: 205px;
+	top: 300px;
+	left: 20px;
+	display: none;
+}
+.leftBar .floorOne{
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;	
+}
+.leftBar a{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	border-radius: 30px;
+	line-height: 30px;
+	text-decoration: none;
+	cursor: pointer;
+	overflow: hidden; 
+}
+.floorOne .a1{
+	display: block;
+	width: 30px;
+	background: #d43d4e;
+	z-index: 1;
+}
+/*f1*/
+
+.leftBar .a2{
+	background: #f1f1f1;
+	z-index: 2;
+}
+.floorOne i{
+	width: 12px;
+	height: 20px;
+	position: absolute;
+	left:9px;
+	top: 5px;
+	background: url(../img/floorIcon.png) 0 -181px no-repeat;
+}
+/*f2*/
+.leftBar .floorTwo{
+	position: absolute;
+	left: 0;
+	top: 31px;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;	
+}
+.floorTwo .a1{
+	display: block;
+	width: 30px;
+	background: #c2782f;
+	z-index: 1;
+}
+.floorTwo .a2 i{
+	width: 8px;
+	height: 21px;
+	position: absolute;
+	left:11px;
+	top: 5px;
+	background: url(../img/floorIcon.png) -18px -181px no-repeat;
+}
+/*f3*/
+.leftBar .floorThree{
+	position: absolute;
+	left: 0;
+	top: 62px;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;	
+}
+.floorThree .a1{
+	display: block;
+	width: 30px;
+	background: #296693;
+	z-index: 1;
+}
+.floorThree .a2 i{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left:6px;
+	top: 5px;
+	background: url(../img/floorIcon.png) -31px -181px no-repeat;
+}
+/*f4*/
+.leftBar .floorFour{
+	position: absolute;
+	left: 0;
+	top: 93px;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;	
+}
+.floorFour .a1{
+	display: block;
+	width: 30px;
+	background: #6c9d0e;;
+	z-index: 1;
+}
+.floorFour .a2 i{
+	width: 12px;
+	height: 19px;
+	position: absolute;
+	left:9px;
+	top: 5px;
+	background: url(../img/floorIcon.png) -56px -180px no-repeat;
+}
+/*f5*/
+.leftBar .floorFive{
+	position: absolute;
+	left: 0;
+	top: 124px;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;	
+}
+.floorFive .a1{
+	display: block;
+	width: 30px;
+	background: #fe7a65;;
+	z-index: 1;
+}
+.floorFive .a2 i{
+	width: 15px;
+	height: 16px;
+	position: absolute;
+	left:8px;
+	top: 6px;
+	background: url(../img/floorIcon.png) -39px -213px no-repeat;
+}
+/*fR*/
+.leftBar .floorReturn{
+	position: absolute;
+	left: 0;
+	top: 155px;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;	
+}
+.floorReturn .a2 i{
+	width: 15px;
+	height: 10px;
+	position: absolute;
+	left:8px;
+	top: 10px;
+	background: url(../img/floorIcon.png) -74px -190px no-repeat;
+}
+.floorReturn .a2 i.on{
+	
+	background: url(../img/floorIcon.png) -96px -190px no-repeat;
+}
+.floorN a.on{
+	z-index: 3;
+}

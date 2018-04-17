@@ -206,7 +206,113 @@ $(function(){
 				clearInterval(interval);
 			}
 		},2);
+	});
+	// 左侧动态效果*******************
+	$(".floorN").mouseenter(function(){
+		
+		
+		floorName = $(this).attr("name");
+		
+		$(this).find(".a1").text(floorName).addClass("on").animate({"width":"70px"},200);	
 		
 	});
 
+	$(".floorN .a1").mouseout(function(){
+		flags=$(this).data("flag");
+		fName = $(this).attr("name");
+		if(flags=="a"){
+			
+			$(this).animate({"width":"30px"},200,function(){
+				$(this).addClass("on").text(fName);
+			});
+		}
+		else{
+			$(this).animate({"width":"30px"},200,function(){
+				$(this).removeClass("on").text(fName);
+			});
+		}
+		
+	});
+	
+
+	$(".floorReturn .a2").hover(function(){
+		$(".floorReturn .a2 i").addClass("on");
+	},function(){
+		$(".floorReturn .a2 i").removeClass("on");
+	});
+	$(".floorReturn .a2").click(function(){
+		 scrollTop_y = $(document).scrollTop();
+		 scrollS = 50;
+	
+		interval2 = setInterval(function(){
+			if(scrollTop_y>=0){
+				scrollTop_y = scrollTop_y-scrollS;
+				$(document).scrollTop(scrollTop_y);
+			}
+			else{
+				$(document).scrollTop(0);
+				clearInterval(interval2);
+			}
+		},2);
+	});
+
+
+// 左侧滚动监听********************************************
+
+	$(document).scroll(function(){
+		high = $(document).scrollTop();
+
+		f1Top=$(".floor1").offset().top-80;
+		f2Top=$(".floor2").offset().top-50;
+		f3Top=$(".floor3").offset().top-50;
+		f4Top=$(".floor4").offset().top-50;
+		f5Top=$(".floor5").offset().top-50;
+		f6Top=$(".recommend").offset().top-50;
+
+		$(".floorN .a1").removeClass("on");
+		$(".floorN .a1").data({"flag":" "})
+		if(high>=f1Top&&high<f2Top){
+			$(".leftBar .floorOne .a1").data({"flag":"a"}).addClass("on").text("1F");
+		}
+		else if(high>=f2Top&&high<f3Top){
+			$(".leftBar .floorTwo .a1").data({"flag":"a"}).addClass("on").text("2F");
+		}
+		else if(high>=f3Top&&high<f4Top){
+			$(".leftBar .floorThree .a1").data({"flag":"a"}).addClass("on").text("3F");
+		}
+		else if(high>=f4Top&&high<f5Top){
+			$(".leftBar .floorFour .a1").data({"flag":"a"}).addClass("on").text("4F");
+		}
+		else if(high>=f5Top&&high<f6Top){
+			$(".leftBar .floorFive .a1").data({"flag":"a"}).addClass("on").text("5F");
+		}
+		high = $(document).scrollTop();
+		
+		if(high>=f1Top){
+			$(".leftBar").show(500);
+			
+		}
+		else if(high<f1Top){
+			$(".leftBar").hide(500);
+
+		}
+
+	});
+
+	$(".floorOne").click(function(){
+		$(document).scrollTop(f1Top);
+	});
+	$(".floorTwo").click(function(){
+		$(document).scrollTop(f2Top);
+	});
+	$(".floorThree").click(function(){
+		$(document).scrollTop(f3Top);
+	});
+	$(".floorFour").click(function(){
+		$(document).scrollTop(f4Top);
+	});
+	$(".floorFive").click(function(){
+		$(document).scrollTop(f5Top);
+	});
+	
 });
